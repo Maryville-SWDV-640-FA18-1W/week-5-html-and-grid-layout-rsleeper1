@@ -19,6 +19,13 @@
   *::after {
     box-sizing: inherit;
   }
+
+  img.align-content-center {
+    width: 400px;
+    height: 250px;
+    display: block;
+    margin: 0px auto;
+  }
   
   header {
     text-align: center;
@@ -193,7 +200,10 @@ svg.svg-inline--fa {
     position: relative;
     width: 100%;
     min-height: 1px;
-    margin: 25px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     padding: 25px;
     border-width: 10px;
     border-style: groove;
